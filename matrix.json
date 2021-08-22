@@ -1,0 +1,229 @@
+{
+  "version": "3.0",
+  "organisation": {
+    "name": "Acme Co",
+    "web": "https://acme.app/",
+    "email": "media@acme.app",
+    "location": "New Zealand",
+    "established": "2017-01-01",
+    "socials": [
+      {
+        "type": "twitter",
+        "slug": "acmewallets"
+      },
+      {
+        "type": "facebook",
+        "slug": "acmewallets"
+      },
+      {
+        "type": "youtube",
+        "slug": "acmewallets"
+      },
+      {
+        "type": "linkedin",
+        "slug": "acmewallets"
+      }
+    ],
+    "soft": [
+        {
+            "data-retention-policy": "https://acme.app/data-retention-policy"
+        },
+        {
+            "product-support": "support@acme.app"
+        }
+    ]
+  },
+  "wallets": [
+    {
+      "name": "acme model 1",
+      "web": "https://shop.acme.com/products/acme-model-1",
+      "uuid": "D48869A0-759E-45D1-ABDF-E5339DE38E70",
+      "features": {
+        "currencies": [
+          {
+            "type": "crypto",
+            "ticker": "BTC"
+          },
+          {
+            "type": "crypto",
+            "ticker": "ETH"
+          },
+          {
+            "type": "stablecoin",
+            "ticker": "USDT"
+          },
+          {
+            "type": "fiat",
+            "ticker": "USD"
+          }
+        ],
+        "wallet_types": [
+          "on-chain",
+          "lightning"
+        ],
+        "security": [
+          "pin-on-wallet",
+          "fake-wallet",
+          "pin-on-wallet",
+          "pin-on-tx",
+          "encrypted-password",
+          "dust-protection",
+          "scrambled-pin",
+          "2fa",
+          "keyless",
+          "touch-id",
+          "face-id"
+        ],
+        "privacy": [
+            "tor",
+            "coinjoin",
+            "custom-node",
+            "offline",
+            "paynym",
+            "vpn",
+            "no-signup"
+        ],
+        "languages": [
+          {
+            "iso6392": "EN"
+          }
+        ],
+        "custodial": "N",
+        "license": [
+          "Apache 2.0"
+        ],
+        "multisig": "N",
+        "testnet": "N",
+        "batchtx": "N",
+        "fio": "N",
+        "form_factor": "mobile",
+        "custom_node": "Y",
+        "rbf": "?",
+        "psbt": "?",
+        "reproducible_builds": "?",
+        "hd": "Y",
+        "sna": "Y",
+        "fee_estimation": "?",
+        "fee_control": "?",
+        "hardware": [],
+        "lightning": [
+            "auto-liquidity",
+            "routing-node",
+            "testnet",
+            "pos",
+            "custom-node",
+            "lnurl"
+        ],
+        "refill": [
+            "apple-pay",
+            "google-pay",
+            "debit-card",
+            "credit-card",
+            "wire-transfer",
+            "bank-transfer",
+            "fastbitcoins"
+        ],
+        "validation": "variable",
+        "platforms": [
+          {
+            "name": "mobile",
+            "github": "https://github.com/acme-wallets-inc",
+            "download": "https://shop.acme.com/pages/acme-model-1",
+            "language": "Golang"
+          }
+        ],
+        "coin_control": "?",
+        "tx_labelling": "?"
+      }
+    },
+    {
+        "name": "acme model 2",
+        "web": "https://shop.acme.com/products/acme-model-2",
+        "uuid": "B23F9863-8567-48D9-80E2-03EE1A62F007",
+        "features": {
+          "currencies": [
+            {
+              "type": "crypto",
+              "ticker": "BTC"
+            },
+            {
+              "type": "crypto",
+              "ticker": "BCH"
+            },
+            {
+              "type": "fiat",
+              "ticker": "USD"
+            }
+          ],
+          "wallet_types": [
+            "on-chain"
+          ],
+          "security": [
+            "pin-on-wallet",
+            "fake-wallet",
+            "pin-on-wallet",
+            "pin-on-tx",
+            "encrypted-password",
+            "dust-protection",
+            "scrambled-pin",
+            "2fa",
+            "keyless",
+            "touch-id",
+            "face-id"
+          ],
+          "privacy": [
+              "tor",
+              "coinjoin",
+              "custom-node",
+              "vpn",
+              "no-signup"
+          ],
+          "languages": [
+            {
+              "iso6392": "EN"
+            },
+            {
+                "iso6392": "DE"
+            },
+            {
+                "iso6392": "KO"
+            }
+          ],
+          "custodial": "N",
+          "license": [
+            "Apache 2.0"
+          ],
+          "multisig": "N",
+          "testnet": "N",
+          "batchtx": "N",
+          "fio": "N",
+          "form_factor": "mobile",
+          "custom_node": "Y",
+          "rbf": "?",
+          "psbt": "?",
+          "reproducible_builds": "?",
+          "hd": "Y",
+          "sna": "Y",
+          "fee_estimation": "?",
+          "fee_control": "?",
+          "hardware": [],
+          "lightning": [],
+          "refill": [
+              "apple-pay",
+              "google-pay"
+          ],
+          "validation": "variable",
+          "platforms": [
+            {
+              "name": "mobile",
+              "github": "https://github.com/acme-wallets-inc",
+              "download": "https://shop.acme.com/pages/acme-model-2",
+              "language": "Javascript"
+            }
+          ],
+          "coin_control": "?",
+          "tx_labelling": "?"
+        }
+      }
+  ]
+}
